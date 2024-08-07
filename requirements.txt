@@ -2,4 +2,4 @@ numpy
 pickle-mixin
 pandas
 streamlit
-catboost 
+catboost== 1.2.3
