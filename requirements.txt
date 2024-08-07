@@ -1,4 +1,5 @@
-streamlit
+pickle
 numpy
 pandas
+streamlit
 catboost 
