@@ -1,5 +1,5 @@
-pickle
 numpy
+pickle-mixin
 pandas
 streamlit
 catboost 
