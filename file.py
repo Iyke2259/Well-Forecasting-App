@@ -5,15 +5,16 @@ import numpy as np
 import pickle 
 import streamlit as st 
 
-
-pickle_in_oil = open('model_oil.pkl', 'rb')
-model_oil = pickle.load(pickle_in_oil)
-
 pickle_in_gas = open('model_gas.pkl', 'rb')
 model_gas = pickle.load(pickle_in_gas)
 
 pickle_in_water = open('model_water.pkl', 'rb')
 model_water = pickle.load(pickle_in_water)
+
+pickle_in_oil = open('model_oil.pkl', 'rb')
+model_oil = pickle.load(pickle_in_oil)
+
+
 
 st.set_page_config(page_title="Well Forecast App")
 def predictions(Date,Downhole_Pressure,Downhole_Temperature,Average_Tubing_Pressure,Annulus_Pressure,Average_Wellhead_Pressure,Choke_Size,WellBore_Name):
