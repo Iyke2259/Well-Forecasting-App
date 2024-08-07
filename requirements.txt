@@ -1,5 +1,5 @@
-numpy == 1.26.4
-pickle-mixin
-pandas
-streamlit
-catboost== 1.2.3
+streamlit==1.37.1
+pandas==2.2.2
+numpy==1.21.6
+catboost==1.0.6 
+pickle == 4.0
