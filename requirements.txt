@@ -1,5 +1,5 @@
-streamlit==1.37.1
-pandas==2.2.2
-numpy==1.21.6
-catboost==1.0.6 
+streamlit == 1.32.0
+numpy == 1.26.4
+pandas == 2.2.2
+catboost == 1.2.3
 pickle == 4.0
