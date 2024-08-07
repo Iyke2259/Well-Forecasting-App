@@ -95,7 +95,7 @@ def predictions(Date,Downhole_Pressure,Downhole_Temperature,Average_Tubing_Press
 def main():
     st.title("Well Production Forecasting using Machine Learning")
     #st.sidebar.header(" Web App")
-    st.write("This web app utilizes machine learning techniques to accurately forecast the production rates for the oil, gas, and water. The ML model was trained on well production data from a conceptual oil field between 2008 and 2015.")
+    st.write("This web app utilizes machine learning techniques to accurately forecast the production rates for oil, gas, and water in a drilling well. The ML model was trained on well production data from a conceptual oil field operated between 2008 and 2015.")
     st.write("<i>Fill in the appropriate parameters below to generate a well production estimate:</i>",unsafe_allow_html=True)
     
       
